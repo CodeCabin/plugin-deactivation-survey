@@ -10,16 +10,16 @@ This library will show a de-activation survey dialog when the user clicks "deact
 
 ## Usage
 
-add_filter('codecabin_deactivate_feedback_form_plugins', function($plugins) {
+	add_filter('codecabin_deactivate_feedback_form_plugins', function($plugins) {
 	
-	$plugins[] = (object)array(
-		'slug'		=> 'wp-google-maps',
-		'version'	=> '7.0.6'
-	);
+		$plugins[] = (object)array(
+			'slug'		=> 'wp-google-maps',
+			'version'	=> '7.0.6'
+		);
 	
-	return $plugins;
+		return $plugins;
 	
-});
+	});
 
 ## Notes
 
